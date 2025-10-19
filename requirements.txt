@@ -1,0 +1,9 @@
+flask
+python-dotenv
+langchain-community
+langchain-google-genai
+faiss-cpu
+sentence-transformers
+boto3
+gunicorn
+ifcopenshell
