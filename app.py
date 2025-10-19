@@ -8,9 +8,9 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # --- AWS Configuration ---
-S3_BUCKET_NAME = "your-hackathon-bucket-name" # <<<<<<< เปลี่ยนชื่อ Bucket ของคุณ
+S3_BUCKET_NAME = "hackathondataq" # <<<<<<< เปลี่ยนชื่อ Bucket ของคุณ
 S3_VECTOR_STORE_KEY = "vector_store/faiss_index" # ที่เก็บ Vector Store ใน S3
-SECRET_NAME = "your/gemini/api/key/name" # <<<<<<< ชื่อ Secret ใน Secrets Manager
+SECRET_NAME = "hackathon/gemini/api_key" # <<<<<<< ชื่อ Secret ใน Secrets Manager
 # -------------------------
 
 def get_gemini_key_from_secrets_manager():

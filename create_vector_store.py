@@ -9,7 +9,7 @@ import boto3
 import tempfile
 
 # --- AWS Configuration ---
-S3_BUCKET_NAME = "your-hackathon-bucket-name" # <<<<<<< เปลี่ยนชื่อ Bucket ของคุณ
+S3_BUCKET_NAME = "hackathondataq" # <<<<<<< เปลี่ยนชื่อ Bucket ของคุณ
 S3_IFC_PREFIX = "ifc-data/" # โฟลเดอร์ใน S3 ที่เก็บไฟล์ .ifc
 S3_VECTOR_STORE_KEY = "vector_store/faiss_index" # ที่จะเซฟ Vector Store ใน S3
 # -------------------------
